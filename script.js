@@ -3,7 +3,7 @@ const CURRENT_TEMP = document.getElementsByClassName('weather-content__temp')[0]
 const FORECAST = document.getElementsByClassName('component__forecast-box')[0];
 
 const URL = "https://api.openweathermap.org/data/2.5/forecast/daily?" +
-"q=CITY&cnt=7&units=imperial&=";
+"q=CITY&cnt=7&units=imperial&80688904f61698d023cc7f8bbdb96da=";
 
 function getWeatherData() {
     let headers = new Headers();
